@@ -1,0 +1,8 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    font-size: 20px;
+}
