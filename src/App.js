@@ -37,7 +37,7 @@ const App = () => {
     };
     getCharacters();
   }, [state.page]);
-  console.log('state', state);
+
   const changePage = (page) => {
     if (page !== state.page) {
       setState((prevState) => ({ ...prevState, page }));
